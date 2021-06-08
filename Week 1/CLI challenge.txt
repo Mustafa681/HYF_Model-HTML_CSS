@@ -1,0 +1,27 @@
+1.How do I create a hidden file or folder? How do I display it in the CLI?
+  -first creat a file:
+   touch text1.txt
+
+   -Then, hide the file by moving it under a new filename:
+    mv touch text1.txt .text1.txt
+
+    -To verify the file is now hidden:
+     ls
+
+    -Now list the contents, incloding hidding files:
+    ls -a
+   *You should see test.txt in the second listing.
+
+
+2.How do I create multiple nested directories?
+
+   -simply by using the (mkdir) make directory command
+    and  "-p" flag will create parent directory:
+     mkdir -p /c/Users/myusername/these/folders/
+
+
+3.How do I append a message to a file, without a newline character?
+
+   -to append a message to a file by adding the (\n) you go to a new line: 
+   echo -e "line3\n line4\n line5\n" >> file.txt:
+
