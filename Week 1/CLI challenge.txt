@@ -22,5 +22,5 @@
 
 3.How do I append a message to a file, without a newline character?
 
-   echo "my new info" >> myFileName.txt   
+   echo "New info" >> myFileName.txt   
 
