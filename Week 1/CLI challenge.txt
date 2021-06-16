@@ -22,6 +22,5 @@
 
 3.How do I append a message to a file, without a newline character?
 
-   -to append a message to a file by adding the (\n) you go to a new line: 
-   echo -e "line3\n line4\n line5\n" >> file.txt:
+   echo "my new info" >> myFileName.txt   
 
